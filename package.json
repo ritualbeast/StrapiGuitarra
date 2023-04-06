@@ -1,0 +1,36 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "clear": "strapi develop --clear-cache"
+  },
+  "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.9.2",
+    "@strapi/plugin-i18n": "4.9.0",
+    "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/provider-upload-cloudinary": "^4.9.0",
+    "@strapi/strapi": "4.9.0",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "pg": "8.8.0",
+    "strapi-plugin-upload": "^0.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "bf9b671c-10f4-43e2-b7c1-14f986acc170"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
